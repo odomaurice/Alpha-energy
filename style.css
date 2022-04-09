@@ -15,7 +15,7 @@ body{
 @media (max-width:1020px) {
     body{
         padding: 1.5rem;
-        font-size: 50px;
+        font-size: 20px;
         line-height: 2;
         font-family:'Merriweather';
         font-weight: 700;
