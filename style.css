@@ -237,8 +237,8 @@ h2{
 
 
 
-a:link{ background-color: orange;
-    border: 5px solid #170207;
+a:link{
+    
     padding: 5px;
     text-decoration: none;
 
@@ -296,7 +296,6 @@ border-radius: 10px;
      font-size: 40px;
 }
 .footer-link{
-    background-color: #ffa500;
     position: relative;
     float: right;
     text-transform: uppercase;
