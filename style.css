@@ -2,7 +2,7 @@
 *{box-sizing: border-box;}
 body{
     text-align: center;
-    background: url(..\images\gym4.jpg);
+    background: url(./images/gym4.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     font-family: 'Merriweather';
