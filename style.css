@@ -3,8 +3,8 @@
 body{
     text-align: center;
     background: url("../images/gym4.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     font-family: 'Merriweather';
     margin: 0;
     text-align: center;
