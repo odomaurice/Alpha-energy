@@ -310,6 +310,12 @@ border-radius: 10px;
         
     }
 }
+
+.post2{
+    margin:0;
+    height: 0;
+    padding:1rem;
+}
 .sec4-img{
     width: 50%;
     max-width: 100%;
