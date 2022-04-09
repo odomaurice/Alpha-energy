@@ -1,0 +1,314 @@
+
+*{box-sizing: border-box;}
+body{
+    text-align: center;
+    background: url(../gym4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Merriweather';
+    margin: 0;
+    text-align: center;
+
+    
+}
+
+@media (max-width:1020px) {
+    body{
+        padding: 2rem;
+    }
+    
+}
+
+
+
+ .logo{
+     margin:  1rem ;
+     font-weight: 700;
+     font-family: 'Poppins';
+     color: #ffa500;
+     
+     
+    
+    
+    
+}
+
+ ul{
+    list-style: none;
+}
+
+li{
+    float: right;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    
+
+    
+    margin: 0 1rem;
+
+    
+}
+li:focus{
+    background-color: #ffa500;
+    text-decoration: none;
+}
+li:hover{
+    text-decoration: none;
+}
+
+anchor{
+     
+    font-family: 'Merriweather'; 
+    font-weight: bold; 
+    font-size: 30px;
+    margin-right: 500px;
+}
+ 
+
+
+
+h2{
+    
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.Container1{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 400 200;
+    width: 100%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    height: 600px;
+    
+    
+}
+
+@media (max-width:1019px) {
+    .Container1{
+        margin-top: 5px;
+        padding: 1rem;
+    }
+    
+}
+.Videolink{
+    background-color: white;
+    text-align: center;
+    border: 10px solid white;
+    padding: 10px;
+    
+}
+
+.grid1{
+    text-align: center;
+    font-size: 24px;
+    margin-right: 20px;
+    column-gap: 20px;
+
+}
+.sec1-head{
+    font-family: 'Sacramento'; 
+    font-size: 50px; 
+    color: #fff
+}
+
+.sec1-par{
+    color: #fff;
+}
+  
+.grid2{
+    text-align: center;
+    margin-right: 70px;
+}
+
+.Container2{
+    display:grid;
+    background-color: orange;
+    height: 100px;
+
+    text-align: center;
+    position: fixed;
+
+}
+
+
+
+
+
+
+.Container3{
+    text-align: center;
+    color: white;
+    background-color: orange;
+    height:100px ;
+    margin-bottom: 100px;
+    padding-top: 20px;
+
+}
+  
+
+/*a:active{
+    
+    border: 30px solid orange;
+    padding: 30px;
+    background-color: orange;
+    text-decoration: none;
+
+    color: black;
+}*/
+
+    .Container6{
+        display: flex;
+        background-color: black;
+        color: whitesmoke;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px; 
+    }
+    .Container7{
+        background: url(../images/man-silhouette-fitness-wallpaper-preview.jpg); background-repeat: no-repeat; 
+        background-size: cover;
+    }
+
+    
+    
+    .Container8
+    {   display: flex;
+        background-color: #ffa500;
+        color: #000;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px; 
+        margin: 0.5rem auto;
+
+
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+        width: 50px;
+    }
+
+    .car-top{
+        text-align: center; 
+        font-family: 'Merriweather'; 
+        line-height: 3;
+        padding: 1rem;
+        
+        
+    }
+
+    .car-img{
+        border-radius: 50%;
+        max-width: 20%;
+        height: auto;
+        width: 10%;
+
+    }
+
+    
+
+    .carousel-item{
+        height: 500px; 
+    }
+.Container10{
+    
+    background-color: orange;
+    border: 1rem;
+    padding: 20px;
+    text-align: center;
+    
+    width: 100%;
+    text-decoration: none;
+    height: 50px;
+    
+    
+}
+
+
+
+.links{
+    background-color: orange;
+    border: 20px;
+    padding: 20px;
+    margin: auto;
+    width: 100%;
+    position: relative;
+    text-decoration: none;
+    height: 100px;
+
+}
+.hm{
+    position: absolute;
+    left: 40%;
+    text-decoration: none;
+    
+
+}
+.au{
+    position: absolute;
+    left: 50%;
+    text-decoration: none;
+    
+
+}
+.os{
+    position: absolute;
+    left: 60%;
+    text-decoration: none;
+    
+
+}
+.cn{
+    position: absolute;
+    left: 70%;
+    text-decoration: none;
+    
+
+}
+
+a:link{ background-color: orange;
+    border: 5px solid #170207;
+    padding: 5px;
+    text-decoration: none;
+
+}
+a:hover{
+border: 2px solid black;
+padding: 2px;
+color: black;
+text-decoration: none;
+border-radius: 10px;
+}
+
+         
+
+.Container4{
+    text-align: center;
+    width: 100%;
+    
+}
+
+@media (max-width:1019px) {
+    .Container4{
+        padding: 2rem;
+    }
+}
+.sec4-img{
+    width: 50%;
+    max-width: 100%;
+}
+.sec4-head{
+    font-family: 'Sacramento';
+     font-size: 40px;
+}
+.post2{
+    margin: 3rem;
+    max-height: 100%;
+    height: 50%;
+    padding: 2rem;
+}
