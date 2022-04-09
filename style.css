@@ -235,45 +235,7 @@ h2{
 
 
 
-.links{
-    background-color: orange;
-    border: 20px;
-    padding: 20px;
-    margin: auto;
-    width: 100%;
-    position: relative;
-    text-decoration: none;
-    height: 100px;
 
-}
-.hm{
-    position: absolute;
-    left: 40%;
-    text-decoration: none;
-    
-
-}
-.au{
-    position: absolute;
-    left: 50%;
-    text-decoration: none;
-    
-
-}
-.os{
-    position: absolute;
-    left: 60%;
-    text-decoration: none;
-    
-
-}
-.cn{
-    position: absolute;
-    left: 70%;
-    text-decoration: none;
-    
-
-}
 
 a:link{ background-color: orange;
     border: 5px solid #170207;
@@ -334,6 +296,7 @@ border-radius: 10px;
      font-size: 40px;
 }
 .footer-link{
+    background-color: #ffa500;
     position: relative;
     float: right;
     text-transform: uppercase;
