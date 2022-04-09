@@ -15,6 +15,8 @@ body{
 @media (max-width:1020px) {
     body{
         padding: 0.5rem;
+        font-size: 50px;
+        line-height: 2;
     }
     
 }
