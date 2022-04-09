@@ -312,6 +312,10 @@ border-radius: 10px;
     }
 }
 
+.post2{
+    padding: 1rem;
+}
+
 
 @media (max-width:1019px) {
     .post2{
