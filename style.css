@@ -17,7 +17,8 @@ body{
         padding: 0.5rem;
         font-size: 50px;
         line-height: 2;
-        font-family:'montserrat-Bold';
+        font-family:'Merriweather';
+        font-weight: 700;
     }
     
 }
