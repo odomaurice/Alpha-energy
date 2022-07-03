@@ -1,74 +1,13 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <style>
-    body{
-      line-height: 2;
-      text-align: center;
-    }
-
-    p{
-      margin: 1rem;
-      text-align: justify;
-      line-height: 2;
-
-    }
-    logo{
-    display: inline-block;
-    margin:  10px;
-    font-weight: 700;
-    font-family: 'Poppins';
-    color: #ffa500;
-    
-    
-   
-   
-   
-}
-
-ul{
-   list-style: none;
-   display: flex;
-   align-items: flex-end;
-   
-   
-}
-
-li{
-  
-   text-transform: uppercase;
-   text-decoration: none;
-   color: #fff;
-   
-   
-
-    
-}
-li:focus{
-    background-color: #ffa500;
-    text-decoration: none;
-}
-li:hover{
-    text-decoration: none;
-}
-h2{
-    text-align: center;
-    
-    font-size: 1rem;
-    font-weight: normal;
-}
-
- 
-
-
-  </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <!--CSS LINKS-->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index.css">
 
     <!--FONT AWESOME-->
 
@@ -90,30 +29,33 @@ h2{
 </head>
 <body>
     <div>
-      <header>
-                  
-        <h1 class="logo">ALPHAFATLOSS</h1>
 
-     
-     <div class="header-div">
-      
-       <ul>
-         <li><a href="Our services.html" target="_blank" rel="noopener noreferrer">Our services</a></li>
-         <li><a href="Contact.html" target="_blank" rel="noopener noreferrer">Contact</a></li>
-         <li><a href="About Us.html" target="_blank" rel="noopener noreferrer">About Us</a></li>
-         <li><a href="index.html" target="_blank" rel="noopener noreferrer">Home</a></li>
-       </ul>
-     </div>
-   </header>
 
+       <nav class="navbar navbar-expand-lg navbar-light text-orange justify-between">
+    <div class="container container-fluid">
+      <h1 class="site-title navbar-brand text-orange text-hover-black m-1">ALPHAFATLOSS</h1>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="display-f navbar-nav ms-auto">
+        <li class="ml-1 nav-item active  btn-outlined-white text-orange" aria-current="page"><a class="nav-link text-orange text-hover-black" href="index.html">HOME</a></li>
+        <li class="ml-1 nav-item btn-outlined-white text-orange"><a class="nav-link text-orange text-hover-black" href="About Us.html">ABOUT</a></li>
+        <li class="ml-1 nav-item btn-outlined-white text-orange"><a class="nav-link text-orange text-hover-black" href="Contact.html">CONTACT</a></li>
+        <li class="ml-1 nav-item btn-outlined-white text-orange"><a class="nav-link text-orange text-hover-black"href="Our services.html">SERVICES</a></li>
+      </ul>
+      </div>
+    </div>
+  </nav>
     
         
-        <!--<p>
+        <p class="m-2">
             You have questions. You want answers... and you want them as fast as possible. We know that. And that's why we have set up this special contact page. Consider it your direct line to the caring experts here at Alphafatloss.com. If you can't find the answer to your personal issue in the FAQs below, give it a whirl. Email is fast; the Alphafatloss.com "Contact Us" page is faster! 
-        </p>-->
+        </p>
     </div>
     <div style="text-align: center;">
-        <h2 class="faq-head">FREQUENTLY ASKED QUESTIONS</h2>
+        <h2 class="text-hover-orange">FREQUENTLY ASKED QUESTIONS</h2>
 
         <h3>Membership & Billing</h3>
 
@@ -126,8 +68,8 @@ h2{
         <h5><a href="Alphafatloss.com" target="_blank" rel="noopener noreferrer">How do I find my password?</a></h5>
     </div>
     <div style="text-align: center;">
-         <h2 class="faq-head">SEND US AN EMAIL</h2>
-         <p>
+         <h2 class="text-hover-orange">SEND US AN EMAIL</h2>
+         <p class="m-2">
             Alphafatloss.com Customer Service Representatives are available during business hours 9:00 a.m. - 5:00 p.m. Monday through Friday. Please allow 1-2 business days for a response.</p>
 
     </div>
@@ -145,34 +87,32 @@ h2{
            <label for="message">Questions/Comments</label><br>
            <textarea name="text" id="" cols="30" rows="10"></textarea><hr>
 
-           <button type="submit" name="submit" value="SUBMIT">SUBMIT</button>
+           <button class="btn-outlined-orange text-orange text-hover-white" type="submit" name="submit" value="SUBMIT">SUBMIT</button>
 
         </form>
     </div>
 
-    <div class="Container10">
+    <div class="Container10 m-5">
       <div class="socials Container4">
-        <i class="fa-brands fa-facebook-f"></i>
-      <i class="fa-brands fa-twitter"></i>
-      <i class="fa-brands fa-linkedin"></i>
-      <i class="fa-brands fa-youtube"></i></div>
+        <i class="fa-brands m-2 fa-facebook-f"></i>
+      <i class="fa-brands fa-twitter m-2"></i>
+      <i class="fa-brands fa-linkedin m-2"></i>
+      <i class="fa-brands fa-youtube m-2"></i></div>
+
+      <p  class="">© ALPHAFATLOSS@Alphablogsite.com</p>
 
        </div>
 
-       <div class="links">
-         <div class="hm"><a href="index.html" target="_blank" rel="noopener noreferrer">Home</a></div>
-         <div class="au"> <a href="About us.html" target="_blank" rel="noopener noreferrer">About Us</a></div>
-         <div class="os"><a href="Our services.html" target="_blank" rel="noopener noreferrer">Our Services</a></div>
-         <div class="cn"><a href="Contact.html" target="_blank" rel="noopener noreferrer">Contact</a></div>
-         <br>
-         <p  class="close1">© ALPHAFATLOSS@Alphablogsite.com</p>
-
-       </div>
 
 
 
        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <!--Bootstrap Jquery-->
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
 </body>
 </html>
