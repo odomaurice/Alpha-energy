@@ -23,10 +23,14 @@
 
 body{
     height: 500px;
+    font-family: 'Nunito';
+    color: #fff;
+    background-color: #000;
 }
 
 .Container{
     margin: 2rem;
+    font-family: 'Nunito';
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,6 +38,7 @@ body{
 
 .container {
   width: 100%;
+  font-family: 'Nunito';
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
@@ -42,6 +47,8 @@ body{
 
 .buttons{
     text-align: center;
+    font-family: 'Nunito';
+    margin: 0 5rem;
 }
 
 
@@ -100,9 +107,11 @@ li:hover{
 
 h2{
     text-align: center;
+    color: #fff;
     
     font-size: 1.5rem;
     font-weight: normal;
+    font-family: 'Nunito';
 }
 
 .img-responsive{
@@ -114,6 +123,8 @@ h2{
 .about-sec{
     text-align: center; 
     margin: 1rem;
+    font-family: 'Nunito';
+    color: #fff;
 }
 
 .close1{
@@ -128,12 +139,13 @@ h2{
     margin: 100px auto 100px auto;
     text-align: center;
     height: 600px;
+    font-family: 'Nunito';
     
     
 }
 
 .faq-head{
-    font-family: 'Montserrat-Bold'; font-family: 30px; font-weight: bold;
+    font-family: 'Nunito'; font-family: 30px; font-weight: bold;
 }
 .Videolink{
     background-color: white;
@@ -149,6 +161,9 @@ h2{
     margin-right: 20px;
     column-gap: 20px;
 
+}
+.hero-par{
+    max-width: 470px;
 }
   
 .grid2{
